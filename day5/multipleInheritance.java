@@ -18,7 +18,7 @@ class Bat implements Animal, Bird {
     public void fly() {
         System.out.println("Bat can fly.");
     }
-}
+}   
 
 public class multipleInheritance {
     public static void main(String[] args) {
