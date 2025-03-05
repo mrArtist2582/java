@@ -70,7 +70,7 @@ public class BankingApp {
     static Scanner scanner = new Scanner(System.in);
 
     // Menu-driven loop
-    public static void bankingMenu(BankAccount account) {
+    static void bankingMenu(BankAccount account) {
         while (true) {
             System.out.println("\n=== Banking System Menu ===");
             System.out.println("1. Deposit");
