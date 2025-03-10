@@ -15,7 +15,7 @@ public class StudentManagement {
             System.out.println("5. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1 -> {
@@ -40,7 +40,7 @@ public class StudentManagement {
                     } else {
                         System.out.print("Enter student number to update: ");
                         int index = scanner.nextInt();
-                        scanner.nextLine(); // Consume newline
+                        scanner.nextLine();
                         if (index > 0 && index <= students.size()) {
                             System.out.print("Enter new name: ");
                             String newName = scanner.nextLine();
@@ -57,7 +57,7 @@ public class StudentManagement {
                     } else {
                         System.out.print("Enter student number to delete: ");
                         int index = scanner.nextInt();
-                        scanner.nextLine(); // Consume newline
+                        scanner.nextLine(); 
                         if (index > 0 && index <= students.size()) {
                             String removedStudent = students.remove(index - 1);
                             System.out.println(removedStudent + " removed successfully!");
